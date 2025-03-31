@@ -1,0 +1,16 @@
+name: arb_generator_reworked
+description: A dart tool for bi-directional conversion between ARB and Excel files.
+version: 0.0.5
+upload_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  excel: ^2.1.0  # For handling Excel files
+  path: ^1.8.0   # For path manipulation
+
+dev_dependencies:
+  test: ^1.21.4
+  lints: ^1.0.1
+
