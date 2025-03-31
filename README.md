@@ -92,20 +92,20 @@ dart run bin/generate_excel_template.dart run/input/translations.xlsx en,da
 
 ```bash
 # Using binary
-./bin/arb_generator excel-to-arb input.xlsx output/arb
+./bin/arb_generator excel-to-arb run/input/translations.xlsx run/output/arb
 
 # Using dart run
-dart run bin/excel_to_arb.dart input.xlsx output/arb
+dart run bin/excel_to_arb.dart run/input/translations.xlsx run/output/arb
 ```
 
 #### Convert ARB to Excel
 
 ```bash
 # Using binary
-./bin/arb_generator arb-to-excel input/app_da.arb input/app_en.arb output/translations.xlsx
+./bin/arb_generator arb-to-excel run/input/arb/app_da.arb run/input/arb/app_en.arb run/output/translations.xlsx
 
 # Using dart run
-dart run bin/arb_to_excel.dart input/app_da.arb input/app_en.arb output/translations.xlsx
+dart run bin/arb_to_excel.dart run/input/arb/app_da.arb run/input/arb/app_en.arb run/output/translations.xlsx
 ```
 
 ## Excel File Format
